@@ -1,0 +1,22 @@
+# Site settings
+title: "Taejin Kim"
+author: "Taejin Kim"
+description: >-
+  A sophomore EE student building things that have to work in the real world:
+  phone-answering AI, a PCB physics simulator, a microsecond-latency keyboard.
+url: "https://tajankam12345-svg.github.io"
+baseurl: ""
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+permalink: /:categories/:year/:month/:day/:title/
+header_pages:
+  - projects.md
+  - about.md
+minima:
+  social_links:
+    github: tajankam12345-svg
+show_excerpts: true
+exclude:
+  - README.md
